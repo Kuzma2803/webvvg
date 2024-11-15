@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                color: green;
+            }
+        </style>
+    </head>
+<body>
+    <h1>Boje</h1>
+        <p>Ljubicatsta boja.</p>
+        <p>Narancasta boja.</p>
+</body>
+</html>
