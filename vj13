@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>#red{color: red;}</style>
+</head>
+
+
+
+
+<body>
+<h1>Mary latter</h1>
+<p>In my restless dreams,</p>
+<p id="red">I see that town.</p>
+
+</body>
+
+</html>
