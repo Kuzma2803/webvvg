@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+       
+        h1 {
+          font-family: Verdana, Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 24px;
+        }
+    
+       
+        p {
+          font-family: Verdana, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+    
+        
+        .citat{
+          font-style: italic;
+          font-weight: bold;
+          border: 1px solid black;
+          padding: 6px;
+          background-color: #FFFFCC;
+        }
+      </style>
+
+</head>
+
+
+
+
+<body>
+<h1>Mary latter</h1>
+<p>In my restless dreams,
+    I see that town.
+    
+    Silent Hill.
+    
+    You promised me you'd take me
+    there again someday.
+    But you never did.
+    </p>
+<p>&quot;Well, I'm alone there now...
+    In our 'special place'...
+    Waiting for you...
+    
+    Waiting for you to
+    come to see me.
+    
+    But you never do.
+    &quot;</p>
+
+</body>
+
+</html>
