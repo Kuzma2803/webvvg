@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokument sa stilovima</title>
+    <style>
+        /* Stil za naslov (sva slova velika) */
+        h1 {
+            text-transform: uppercase; /* Sva slova velika */
+            text-align: center; /* Poravnanje naslova na sredinu */
+            text-shadow: none; /* Početno bez sjene */
+        }
+
+        /* Efekt kada pređemo mišem preko naslova */
+        h1:hover {
+            text-shadow: 3px 2px 5px grey; /* Sjena na naslovu pri hoveru */
+        }
+
+        /* Stil za prvi odlomak */
+        p.first {
+            letter-spacing: 2px; /* Razmak između slova */
+            word-spacing: 7px; /* Razmak između riječi */
+            text-indent: 50px; /* Uvlaka od 50px */
+        }
+
+        /* Stil za drugi odlomak */
+        p.second {
+            line-height: 20px; /* Razmak između linija 20px */
+            text-indent: 50px; /* Uvlaka od 50px */
+        }
+
+        /* Opći stil za odlomke */
+        p {
+            text-indent: 50px; /* Uvlaka od 50px za sve odlomke */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Naslov -->
+    <h1>Ovo je naslov</h1>
+
+    <!-- Prvi odlomak -->
+    <p class="first">Ovo je prvi odlomak. Razmak između slova je 2px, a razmak između riječi je 7px. Uvlaka je postavljena na 50px.</p>
+
+    <!-- Drugi odlomak -->
+    <p class="second">Ovo je drugi odlomak. Razmak između linija iznosi 20px. Također, uvlaka je postavljena na 50px. Razmak između slova i riječi može biti prilagođen različitim potrebama.</p>
+
+</body>
+</html>
