@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+
+    <title>Primjer linka</title>
+    <style>
+        /* Postavljanje osnovne boje linka na zelenu */
+        a {
+            color: green;
+            text-decoration: none; /* Ukidanje podvlačenja linka */
+        }
+
+        /* Promjena boje linka na crvenu kada mišem pređemo preko njega */
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Posjetite našu <a href="https://www.example.com">web stranicu</a> za više informacija!</p>
+</body>
+</html>
