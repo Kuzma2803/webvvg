@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slika, Tekst i Video</title>
+    <style>
+        /* Container za sliku, tekst i video */
+        .container {
+            display: flex; /* Postavlja elemente u red */
+            align-items: flex-start; /* Poravnanje elemenata po vrhu */
+        }
+
+        /* Stil za sliku */
+        .image {
+            width: 45%; /* Slika zauzima 45% širine */
+            margin-right: 1%; /* Razmak između slike i teksta */
+        }
+
+        /* Stil za tekst */
+        .text {
+            width: 50%; /* Tekst zauzima 50% širine */
+        }
+
+        /* Stil za video */
+        .video {
+            margin-top: 10px; /* Razmak od 10px između teksta i videa */
+            width: 100%; /* Video zauzima cijelu širinu */
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px; /* Visina iframe videa */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202210/2000/7cb6eP7FKb4PMq6ZnDDBAlzw.png?w=440" alt="Slika" class="image"> <!-- Zamijenite sa stvarnom slikom -->
+        <div class="text">
+            <p>In my restless dreams,
+                I see that town.
+                
+                Silent Hill.
+                
+                You promised me you'd take me
+                there again someday.
+                But you never did.
+                
+                Well, I'm alone there now...
+                In our 'special place'...
+                Waiting for you...
+                
+                Waiting for you to
+                come to see me.
+                
+                But you never do.
+                
+                And so I wait, wrapped in my
+                cocoon of pain and loneliness.
+                
+                I know I've done a terrible
+                thing to you. Something you'll
+                never forgive me for.
+                
+                I wish I could change
+                that, but I can't.
+                
+                I feel so pathetic and ugly
+                laying here, waiting for you...
+                
+                Every day I stare up at the cracks
+                in the ceiling and all I can think
+                about is how unfair it all is...
+                
+                The doctor came today.
+                He told me I could go
+                home for a short stay.
+                
+                It’s not that I'm getting better.
+                It’s just that this may be
+                my last chance...
+                
+                I think you know what I mean...
+                
+                Even so, I'm glad to be coming
+                home. I've missed you terribly.
+                
+                But I'm afraid, James.
+                I'm afraid you don't really
+                want me to come home.
+                
+                Whenever you come see me,
+                I can tell how hard it is on you...
+                
+                I don't know if you
+                hate me or pity me...
+                Or maybe I just disgust you...
+                
+                I'm sorry about that.
+                
+                When I first learned that
+                I was going to die, I just
+                didn't want to accept it.
+                
+                I was so angry all the time and I
+                struck out at everyone I loved most.
+                Especially you, James.
+                
+                That's why I understand
+                if you do hate me.
+                
+                But I want you to
+                know this, James.
+                
+                I'll always love you.
+                
+                Even though our life together had
+                to end like this, I still wouldn't
+                trade it for the world. We had
+                some wonderful years together.
+                
+                Well, this letter has gone on
+                too long, so I'll say goodbye.
+                
+                I told the nurse to give
+                this to you after I'm gone.
+                
+                That means that as you read
+                this, I'm already dead.
+                
+                I can't tell you to remember me,
+                but I can't bear for you to
+                forget me.
+                
+                These last few years since I
+                became ill... I'm so sorry for
+                what I did to you, did to us...
+                
+                You've given me so much and
+                I haven't been able to return
+                a single thing.
+                
+                That's why I want you to live
+                for yourself now.
+                Do what's best for you, James.
+                
+                James...
+                
+                You made me happy.</p>
+        </div>
+    </div>
+
+    <!-- Video ispod teksta -->
+    <div class="video">
+        <!-- YouTube video embedded using iframe -->
+        <iframe src="https://www.youtube.com/embed/CMvrMTmuJuA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
