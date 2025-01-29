@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>    
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                }
+                header{
+                    background-position: fixed;
+                    background-repeat: no-repeat;
+                    height: 250px;
+                    background-size: cover;
+                    background-image: url("images/51792-HEADER-1-M.webp");
+                }
+                header h1{
+                    text-align: center;
+                    padding: 20% 0 0 0;
+                    color: #e7e7e7;
+                }
+                @media only screen and (min-width: 700px){
+                    header{
+                        background-image: url("images/51792-HEADER-1-T.webp");
+                        height: 330px;
+                    }
+                }
+                @media only screen and (min-width: 990px){
+                    header {
+                        background-image: url("images/51792-HEADER-1-D.webp");
+                        height: 100vh;
+                    }
+                    header h1 {
+                        font-size: 30px;
+                    }
+                }
+                main {
+                    padding: 20px 10px;
+                }
+                h1 {
+                    font-size: 22px;
+                    margin: 10px 0;
+                }
+                p {
+                    line-height: 24px;
+                }
+                nav ul {
+                    list-style: none;
+                }
+                nav a {
+                    color: white;
+                    background: black;
+                    font-weight: bold;
+                    display: block;
+                    padding: 15px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    text-align: center;
+                }
+                nav a:hover{
+                    background: darkgrey;
+                }
+                footer {
+                    background-color: black;
+                    padding: 10px 0;
+                    margin-top: 10px;
+                    text-align: center;
+                    color: white;
+                }
+            </style>
+        <body>
+            <header>
+                <h1>MARQ &reg; TOOL WATCH COLLECTION</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="">Homepage</a></li>
+                    <li><a href="">Articles</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h1>LUXURY SMARTWATCHES</h1>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </main>
+            <footer>
+                &copy; Donat Miletić
+            </footer>
+         </body>
+    </html>
